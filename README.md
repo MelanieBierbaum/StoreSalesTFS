@@ -3,6 +3,8 @@ Repository for the Kaggle challenge Store Sales Time Series Forecasting
 
 This repository contains several notebooks I made for the Kaggle Challenge https://www.kaggle.com/competitions/store-sales-time-series-forecasting as well as a PowerBI file which I used for EDA.
 
+The task was to predict sales data for 2 weeks. Metric: root mean squared log error.
+
 ## StoreSalesTSF - LGBM
 LightGBM was the first model I used. Many re-runs with evolving features. Marking categorical features gave similar results than not marking them. Although hyperparameters were tuned with unmarked categorical features.
 
