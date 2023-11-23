@@ -4,7 +4,7 @@ Repository for the Kaggle challenge Store Sales Time Series Forecasting
 This repository contains several notebooks I made for the Kaggle Challenge https://www.kaggle.com/competitions/store-sales-time-series-forecasting as well as a PowerBI file which I used for EDA.
 
 ## StoreSalesTSF - LGBM
-LightGBM was the first model I used. Many re-runs with evolving features. Marking categorical features gave better results than not marking them. Although hyperparameters were tuned with unmarked categorical features.
+LightGBM was the first model I used. Many re-runs with evolving features. Marking categorical features gave similar results than not marking them. Although hyperparameters were tuned with unmarked categorical features.
 
 ## StoreSalesTSF - Regression
 As a 2nd model I ran Regression (Linear + Ridge). While the results were not that great, it made me aware that there are still NaNs in my features. (LightGMB just handled them)
